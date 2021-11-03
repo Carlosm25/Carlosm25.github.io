@@ -37,16 +37,19 @@
      .negro{
         font-weight:600px;
      }
-     .tabla{
+    .tabla{
       background-color: blue;
       color:white;
     }
     .barra{
      background: rgb(230, 230, 230);
-            width: 70%;
-            height: 10px;
-            overflow-y: auto;
-            overflow-x: hidden;
+      height: 200px;
+      width: 70%;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .ancho{
+      width: 100%;
     }
   </Style>
   </head>
@@ -65,7 +68,8 @@
       <li>Copias de seguridad autómaticas y programables.</li>
     </ul> 
   <h2 clas="negro"> Aqui les dejamos una tabla con distintas paginas y lo que ofrecen:</h2>
-  <table class="barra">
+  <div class="barra">
+  <table class="ancho">
   <tr class="tabla">
     <td>Nombre</td>
     <td>Plan</td>
@@ -185,7 +189,7 @@
     <td>400 GB</td>
   </tr>
 </table>
- 
+  </div>
  
  </font></body>
  </html>
